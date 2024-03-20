@@ -38,9 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: ExpansionTile(
           title: Text("This is an ExpansionTile"),
           subtitle: Text("ExpansionTile subtitle"),
-          trailing: Icon(_customIcon
-              ? Icons.arrow_drop_down_circle_outlined
-              : Icons.arrow_drop_down),
+          trailing: Icon(_customIcon? Icons.arrow_drop_down_circle_outlined : Icons.arrow_drop_down),
           children: [
             ListTile(
               title: Text('This is tile Number 2 '),
